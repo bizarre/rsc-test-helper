@@ -2,7 +2,7 @@
 
 ## Motivation
 
-I've been messing around with [Next JS's appDir beta](https://beta.nextjs.org/docs/getting-started) lately on [orbt](https://github.com/tsanga/orbt) and wanted to write some basic unit tests for some of our components. The beta utilizes RSC (async/await in server components), but you get a TS error any time you try to use an async server component in JSX (as the return type of the component is now a promise and no longer an element). NextJS knows how to handle the server components, so you're safe to just supress the typescript error:
+I've been messing around with [Next JS's appDir beta](https://beta.nextjs.org/docs/getting-started) lately on [orbt](https://github.com/tsanga/orbt) and wanted to write some basic unit tests for some of our components. The beta utilizes RSC (async/await in server components), but you get a TS error any time you try to use an async server component in JSX (as the return type of the component is now a promise and no longer an element). NextJS knows how to handle the server components, so you're safe to just suppress the typescript error:
 
 ```jsx
 <Suspense fallback={<Skeleton />}>
