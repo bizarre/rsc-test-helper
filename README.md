@@ -106,3 +106,5 @@ Traverses the tree and searches for `ReactElement`'s with an async function type
 There's no way to test the fallback state of `<Suspense>`, as the helper will await the promise (client-side fetching isn't yet official supported in the beta yet, so I introduced a 0.5s delay in the `RoomChatParticipants` component, which is why the test takes 500ms+ to run).
 
 I haven't tested it a ton yet, code is pretty janky so I'm sure there are a lot of cases that aren't covered yet. I'll probably discover some cases as I continue to test out the beta, and update this helper if viable.
+
+Another big caveat: don't think server-side-only code (like db reading/writing) will work? Might have to change testing env from jsdom to node? haven't messed around with testing this yet.
