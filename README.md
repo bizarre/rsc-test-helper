@@ -16,7 +16,7 @@ In tests though, this fails, as react test renderer `create` (and testing-librar
 ## Usage
 
 First, install it:  
-`yarn add rsc-test-helper`
+`yarn add -D rsc-test-helper`
 
 Then import the patch function:  
 `import { patch } from "rsc-test-helper";`
