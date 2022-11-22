@@ -21,7 +21,7 @@ First, install it:
 Then import the patch function:  
 `import { patch } from "rsc-test-helper";`
 
-Here's a basic example of like a that you would expect to work but doesn't:
+Here's a basic example of a test that you would expect to work but doesn't:
 
 ```jsx
 import React from "react";
