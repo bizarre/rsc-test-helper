@@ -1,6 +1,6 @@
 {
   "name": "rsc-test-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Allows you to pass in server components to test renders",
   "main": "index.js",
   "repository": "https://github.com/bizarre/rsc-test-render-helper",

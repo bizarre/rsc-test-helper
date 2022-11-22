@@ -15,6 +15,12 @@ In tests though, this fails, as react test renderer `create` (and testing-librar
 
 ## Usage
 
+First, install it:  
+`yarn add rsc-test-helper`
+
+Then import the patch function:  
+`import { patch } from "rsc-test-helper";`
+
 Here's a basic example of like a that you would expect to work but doesn't:
 
 ```jsx
@@ -67,7 +73,7 @@ Plugging in the helper, we get a test that actually completes:
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import RoomPage from "./page";
-import { patch } from "rsc-test-render-helper";
+import { patch } from "rsc-test-helper";
 
 describe("Room Page", () => {
   it("renders chat box", async () => {
