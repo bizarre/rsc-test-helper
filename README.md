@@ -1,4 +1,4 @@
-# rsc-test-render-helper
+# rsc-test-helper
 
 ## Motivation
 
