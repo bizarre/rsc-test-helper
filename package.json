@@ -1,9 +1,9 @@
 {
   "name": "rsc-test-helper",
-  "version": "0.1.3",
-  "description": "Allows you to pass in server components to test renders",
+  "version": "0.1.4",
+  "description": "Allows passing in async/await RSC's to test renderers",
   "main": "index.js",
-  "repository": "https://github.com/bizarre/rsc-test-render-helper",
+  "repository": "https://github.com/bizarre/rsc-test-helper",
   "author": "Alex Adewole <alex@bizar.re>",
   "license": "MIT",
   "scripts": {
